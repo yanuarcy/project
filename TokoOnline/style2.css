@@ -1,0 +1,1084 @@
+html {
+    position: relative;
+}
+
+body {
+    height: 280vmax ;
+}
+
+section {
+    height: 700px;
+}
+
+.navbar img {
+    width: 40px;
+}
+
+.navbar-brand {
+    color: rgb(207, 171, 7) !important;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.navbar {
+    z-index: 1;
+    position: relative;
+    margin-top: -38px;
+}
+
+.nav-link.asd {
+    color: rgb(255, 79, 176) !important;
+    text-shadow: 1px 1px 1px rgba(255, 79, 176, 0.7);
+}
+
+.nav-link.asd.dsa {
+    color: black !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+}
+
+
+.form-inline .btn {
+    background-color: pink;
+    margin-left: -10px;
+}
+
+
+.jumbotron {
+    height: 1180px;
+    background-image: url('img/slide3.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -175px;
+    background-position: 0 -25px;
+    position: relative;
+}
+
+.jumbotron:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.jumnbotron .wrapper-box {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.jumbotron .display-4 {
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 80px;
+    padding-top: 100px;
+    padding-left: 400px;
+    flex: 1px;
+}
+
+.jumbotron .display-4 span{
+    font-weight: 500;
+}
+
+hr {
+    width: 240px;
+    border: 1px solid rgb(0, 0, 0,);
+}
+
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5 );
+    border-radius: 14px;
+    margin-top: -180px;
+    background-color: white;
+    padding: 30px;
+}
+
+.info-panel h4 {
+    color: #f99494;
+}
+
+.MSglowmean h4 {
+    font-size: 20px;
+}
+
+.MSglowmean span {
+    font-weight: 1000;
+}
+
+.MSglowmean h1 {
+    font-size: 30px;
+}
+
+.konsult {
+    background-color: #f99494;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.Lane1 {
+    padding-top: 30px;
+}
+
+.imgLane1 img {
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.textAcne {
+    background-color: yellow;
+    margin-left: -440px;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-bottom: 18px;
+}
+
+.textAcne p {
+    font-size: 30px;
+}
+
+.textAcne .solution {
+    font-size: 20px;
+}
+
+.textAcne h4 {
+    padding-top: 10px;
+}
+
+.textAcne span {
+    font-weight: 700;
+}
+
+.Lane2 {
+    padding-top: 30px;
+}
+
+.imgLane2 img {
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.textWhitening {
+    background-color: yellow;
+    border-radius: 20px;
+    margin-left: -440px;
+    margin-right: 40px;
+    margin-bottom: 18px;
+}
+
+.textWhitening p {
+    font-size: 20px;
+}
+
+.textWhitening span {
+    font-weight: 700;
+}
+
+.Lane3 {
+    padding-top: 30px;
+}
+
+.imgLane3 img {
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.textUltimate {
+    margin-left: -445px;
+    background-color: yellow;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-bottom: 18px;
+}
+
+.textUltimate p {
+    font-size: 25px;
+    
+}
+
+.textUltimate .solution {
+    font-size: 20px;
+}
+
+.textUltimate span {
+    font-weight: 700;
+}
+
+.Lane4 {
+    padding-top: 30px;
+}
+
+.imgLane4 img {
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.textLuminous {
+    margin-left: -445px;
+    background-color: yellow;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.textLuminous p {
+    font-size: 25px;
+}
+
+.textLuminous .solution {
+    font-size: 20px;
+}
+
+.textLuminous span {
+    font-weight: 700;
+}
+
+.textkons {
+    background-color: yellow;
+    border-radius: 20px;
+    margin-left: 33px;
+    margin-bottom: 20px;
+    margin-right: -20px;
+}
+
+.textkons h3 {
+    font-size: 30px;
+}
+
+.textkons p {
+    font-size: 25px;
+}
+
+.baten {
+    background-color: yellow;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: 36px;
+    margin-left: -20px;
+}
+
+.butonkonsul h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.konsultasi .btn {
+    display: block;
+    margin: auto;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+}
+
+.konsultasi a {
+    text-decoration: none;
+}
+
+.konsultasi button {
+    color: black;
+}
+
+.konsultasi i {
+    color: black;
+}
+
+
+
+.butonkonsul button:hover {
+    color: #ffffff;
+}
+
+/* .WhyMSGlowpic img {
+    width: 100%;
+} */
+
+.whymsglow {
+    height: auto;
+    margin-top: 30px;
+}
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.titlewhyy {
+    background-color: #fca2cf;
+    border-radius: 20px;
+    box-shadow: 0 14px 25px rgba(0, 0, 0, 0.8);
+    margin-bottom: 50px;
+}
+
+.titlewhy {
+    padding-bottom: 30px;
+}
+
+.titlewhy h3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.titlewhy p {
+    font-size: 30px;
+    font-weight: 300px;
+}
+
+.baris1 {
+    margin-left: -250px;
+}
+
+.bpom img {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.textbpom {
+    background-color: yellow;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.7);
+    margin: auto;
+    margin-left: -500px;
+}
+
+.textbpom a {
+    color: black;
+    text-decoration: none;
+}
+
+.textbpom a:hover {
+    color: #f99494;
+}
+
+.textbpom p {
+    font-size: 20px;
+}
+
+.baris2 {
+    margin-right: -350px;
+}
+
+.textklinik {
+    background-color: yellow;
+    border-radius: 20px;
+    box-shadow: -15px 15px 20px rgba(0, 0, 0, 0.7);
+    margin: auto;
+    margin-right: -250px;
+    width: 100%;
+    z-index: 1;
+}
+
+.textklinik p {
+    font-size: 20px;
+}
+
+.klinik img {
+    width: 400px;
+    height: 400px;
+    margin-left: 160px;
+}
+
+.baris3 {
+    margin-left: -280px;
+}
+
+.ujilab img {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.textuji {
+    background-color: yellow;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.7);
+    margin: auto;
+    margin-left: -500px;
+}
+
+.textuji p {
+    font-size: 20px;
+}
+
+.baris4 {
+    margin-right: -350px;
+}
+
+.textmui {
+    background-color: yellow;
+    border-radius: 20px;
+    box-shadow: -15px 15px 20px rgba(0,0,0,0.7);
+    margin: auto;
+    margin-right: -250px;
+    z-index: 1;
+}
+
+.textmui p {
+    font-size: 20px;
+}
+
+.mui img {
+    width: 400px;
+    height: 400px;
+    margin-left: 185px;
+}
+
+.testimonyy {
+    background-color: #f99494;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+}
+
+.textmonyy {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.textmonyy h3 {
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+
+.textmonyy p {
+    font-size: 28px;
+}
+
+.garansi1 h3 {
+    font-size: 32px;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255, 0.8);
+}
+
+.garansi1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 50%;
+}
+
+.warranty1 {
+    background-color: pink;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.garansi2 h3 {
+    font-size: 26px;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255, 0.8);
+}
+
+.garansi2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.warranty2 {
+    background-color: pink;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.garansi3 h3 {
+    font-size: 32px;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255, 0.8);
+}
+
+.garansi3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.warranty3 {
+    background-color: pink;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.ImgTips {
+    background-color: white;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.warningg {
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+
+.garantion h3 {
+    text-shadow: 1px 1px 3px white;
+}
+
+
+/* =============================================== */
+/* =============== Desktop Version =============== */
+@media (min-width: 992px) {
+    .nav-link.asd.jkl:hover::after, .nav-link.asd:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    
+    }
+
+
+}
+/* ================ Desktop Version =============== */
+/* ================================================ */
+
+
+
+.product {
+    margin-top: 0;
+    
+}
+
+.produc {
+    color: #f99494;
+    padding-top: 18px;
+}
+
+.produc p {
+    font-size: 15px;
+    color: #f99494;
+}
+
+.productesti {
+    padding-top: 500px;
+}
+
+.productesti h3 {
+    color: #f99494;
+}
+
+.card {
+    border: none;
+}
+
+.beli a {
+    text-decoration: none;
+    color: #f99494;
+}
+
+.beli h6:hover {
+    color: grey;
+}
+
+
+.sticker-new {
+    background-color: black;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    height: 25px;
+    left: 20px;
+    line-height: 25px;
+    min-width: 50px;
+    padding: 0 5px;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    top: 20px;
+    z-index: 5
+}
+
+.card p {
+    line-height: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+.card-body a {
+    text-decoration: none;
+    
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.rating {
+    font-size: 12px;
+}
+
+.rating a {
+    color: #c7b270;
+}
+
+.banner {
+    margin-top: 40px;
+    
+    margin-top: 0;
+}
+
+.ourproduct hr {
+    width: auto;
+    border: 1px solid;
+}
+
+.list-group a {
+    border: none;
+}
+
+.ourproduct {
+    background-image: url('img/bgOurproduk2.jpg');
+    background-attachment: fixed;
+    background-position: 0 -200px;
+    background-size: cover;
+    height: 1150px;
+    position: relative
+}
+
+.ourproduct:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+
+.ourproduct .container {
+    z-index: 1;
+    position: relative;
+}
+
+.tittlelist {
+    color: white;
+}
+
+.productesti {
+    margin-top: -450px;
+}
+
+.single-banner img {
+    width: 100%;
+    padding-top: 50px;
+}
+
+
+.tllamp {
+    background-color: pink;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 140px;
+    margin-left: 140px;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.titlelamp {
+    margin-left: 0;
+}
+
+.titlelamp h2 {
+    margin-top: -20px;
+    font-size: 40px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titlelamp img {
+    width: 120px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.titlelamp span {
+    margin-left: 130px;
+}
+
+.kolom1 {
+    background-color: yellow;
+    margin-top: -30px;
+    margin-left: 185px;
+    margin-right: 185px;
+    border-radius: 20px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+}
+
+.angkaa1 {
+    background-color: black;
+    margin-left: 30px; 
+    margin-bottom: 20px;
+    margin-right: 35px;
+}
+
+.angka1 h1 {
+    font-size: 80px;
+    padding-left: 12px;
+    padding-top: 5px;
+    color: white;
+}
+
+.texttangka1 {
+    background-color: yellow;
+    margin-left: -530px;
+    padding-left: 50px;
+    padding-top: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.textangka1 h3 {
+    font-weight: bold;
+}
+
+.textangka1 p {
+    font-weight: bold;
+}
+
+.kolom2 {
+    background-color: yellow;
+    margin-top: 50px;
+    margin-left: 185px;
+    margin-right: 185px;
+    border-radius: 20px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+}
+
+.angkaa2 {
+    background-color: black;
+    margin-left: 30px; 
+    margin-bottom: 20px;
+    margin-right: 35px;
+}
+
+.angka2 h1 {
+    font-size: 80px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+}
+
+.texttangka2 {
+    background-color: yellow;
+    margin-left: -530px;
+    padding-left: 50px;
+    padding-top: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.textangka2 h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.textangka2 p {
+    font-weight: bold;
+}
+
+.kolom3 {
+    background-color: yellow;
+    margin-top: 50px;
+    margin-left: 185px;
+    margin-right: 185px;
+    border-radius: 20px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+}
+
+.angkaa3 {
+    background-color: black;
+    margin-left: 30px; 
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.angka3 h1 {
+    font-size: 80px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+.texttangka3 {
+    background-color: yellow;
+    margin-left: -530px;
+    padding-left: 50px;
+    padding-top: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.textangka3 h3 {
+    font-weight: bold;
+}
+
+.textangka3 p {
+    font-weight: bold;
+}
+
+.kolom4 {
+    background-color: yellow;
+    margin-top: 50px;
+    margin-left: 185px;
+    margin-right: 185px;
+    border-radius: 20px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.angkaa4 {
+    background-color: black;
+    margin-left: 30px; 
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.angka4 h1 {
+    font-size: 80px;
+    padding-left: 9px;
+    padding-top: 10px;
+    color: white;
+}
+
+.texttangka4 {
+    background-color: yellow;
+    margin-left: -530px;
+    padding-left: 50px;
+    padding-top: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.textangka4 h3 {
+    font-weight: bold;
+}
+
+.textangka4 p {
+    font-weight: bold;
+}
+
+.kosongg {
+    margin-top: -60px;
+}
+
+.koosong {
+    background-color: pink;
+    height: 210px;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.inifutercok {
+    background-color: black;
+    width: 1910px;
+    height: 690px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+
+.kontakfuter1 {
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.kontakfuter1 h3 {
+    color: white;
+}
+
+.kotakfuter1 h3, span {
+    font-weight: 600;
+}
+
+.kontakfuter1 p {
+    color: white;
+}
+
+.kontakfuter1 a {
+    text-decoration: none;
+}
+
+.kontakfuter1 a p {
+    color: rgb(0, 255, 0);
+}
+
+.kontakfuter1 a p:hover {
+    color: green;
+}
+
+.kontakfuter1 .spanfuter {
+    font-weight: 800;
+}
+
+.kotakfuter2 {
+    margin-left: -30px;
+    margin-top: 100px;
+}
+
+.kotakfuter2 h3 {
+    color: white;
+}
+
+.kotakfuter2 h3, span {
+    font-weight: 600;
+}
+
+.kotakfuter2 a {
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+}
+
+.kotakfuter2 a:hover {
+    color: green;
+}
+
+.kotakfuter3 {
+    margin-left: -150px;
+    margin-top: 100px;
+}
+
+.kotakfuter3 h3 {
+    color: white;
+}
+
+.kotakfuter3 img {
+    width: 65px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.kotakfuter3 h5 {
+    color: white;
+}
+
+.kotakfuter3 a {
+    text-decoration: none;
+}
+
+.kotakfuter3 h5:hover {
+    color: grey;
+}
+
+.copyright {
+    margin-top: 55px;
+    margin-left: -140px;
+}
+
+.copyright h6 {
+    color: grey;
+}
+
+.copyright a {
+    color: rgb(0, 255, 0);
+}
+
+.copyright a:hover {
+    color: green;
+}
+
+.garis-copyright {
+    width: auto;
+}
+
+.kotakfuter4 {
+    margin-left: -50px;
+    margin-top: 100px;
+}
+
+.kotakfuter4 h3 {
+    color: white;
+    margin-left: -30px;
+}
+
+.kotakfuter4 img {
+    width: 170px;
+    border-radius: 17px;
+    margin-right: 20px;
+}
+
+.pembayaran h3 {
+    margin-bottom: 30px;
+}
+
+.pengiriman img {
+    width: 170px;
+    margin-top: 20px;
+}
+
+.JNE img {
+    width: 170px;
+    height: 85px;
+}
+
+.sicepattiki img {
+    height: 85px;
+}
+
+.vl {
+    border-left: 1px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: 120px;
+    top: 0;
+  }
+
+.vl2 {
+    border-left: 1px solid green;
+    height: 250px;
+    position: absolute;
+    left: 40%;
+    margin-left: 60px;
+    top: 0;
+}
+
+.vl3 {
+    border-left: 1px solid green;
+    height: 480px;
+    position: absolute;
+    left: 40%;
+    margin-left: 110px;
+    top: 0;
+}
+
+
+
+
+#topBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 3%;
+    height: 6%;
+    background: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}

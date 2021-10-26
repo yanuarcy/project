@@ -1,0 +1,157 @@
+.ikontop {
+    padding-top: 15px;
+    margin-bottom: -15px;
+}
+
+.ikontop h6 {
+    font-size: 15px;
+}
+
+.ikontop a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar img {
+    width: 40px;
+}
+
+.navbar-brand {
+    color: rgb(207, 171, 7) !important;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.navbar {
+    z-index: 1;
+    position: relative;
+    margin-top: -30px;
+}
+
+.navbar-nav {
+    font-size: 17px;
+}
+
+
+
+
+.btn {
+    background-color: pink;
+    margin-left: -10px;
+}
+
+.jumbotron {
+    height: 60px;
+    padding: 1px 0;
+}
+
+.breadcrumb-item a {
+    color: black;
+}
+
+.breadcrumb-item a, .breadcrumb-item {
+    font-size: 17px;
+}
+
+.breadcrumb-item a:hover, .breadcrumb-item.active {
+    color: #f99494;
+    text-decoration: none;
+}
+
+.card img {
+    width: 348px;
+}
+
+.product-header {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rating-pro i {
+    color: #c7b270;
+    font-size: 12px;
+}
+
+.rating-summary li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.rating-summary li.read-review::before, .rating-summary li.read-review::before {
+    color: #555;
+    content: "ïƒ¥";
+    font-family: FontAwesome;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    margin-right: 6px;
+}
+
+.rating-summary li a {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: capitalize;
+}
+
+.read-review a {
+    color: black;
+    text-decoration: none;
+}
+
+.read-review a:hover {
+    color: rgb(184, 170, 48);
+    text-decoration: none;
+}
+
+.thumb .price {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.deskripsiprodak {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: -20px;
+}
+
+.main-product button h6 {
+    color: #f99494;
+    padding-top: 10px;
+}
+
+.main-product .btn {
+    background-color: white;
+    border: 3px solid #f99494;
+    width: 200px;
+}
+
+.main-product .btn:hover {
+    background-color: #f99494;
+}
+
+.main-product button:hover h6 {
+    color: white;
+}
+
+
+
+/* =============================================== */
+/* =============== Desktop Version =============== */
+@media (min-width: 992px) {
+    
+
+
+}
+/* ================ Desktop Version =============== */
+/* ================================================ */
+

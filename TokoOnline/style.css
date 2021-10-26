@@ -1,0 +1,133 @@
+html {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    height: 400px;
+    width: 100%;
+}
+
+section {
+    min-height: 500px;
+   padding-bottom: 50px;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.ikontop {
+    padding-top: 15px;
+    margin-bottom: -15px;
+    margin-left: -95px;
+}
+
+.ikontop h6 {
+    font-size: 15px;
+}
+
+.ikontop a {
+    text-decoration: none;
+    color: black;
+}
+
+.produc {
+    color: #f99494;
+}
+
+.produc p {
+    font-size: 15px;
+    color: #f99494;
+}
+
+.testimonial p {
+    font-size: 15px;
+}
+
+ul {
+    margin-right: -110px;
+}
+
+.slidee {
+    position: relative;
+}
+
+.slidee .slider {
+    z-index: 0;
+    position: relative;
+}
+
+.slidee::after {
+    content: "";
+    display: block;
+    width: 1896px;
+    height: 660px;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 50px;
+
+}
+
+.carousel-inner img {
+    height: 600px;
+    width: 1912px;
+}
+
+.card {
+    border: none;
+}
+
+.sticker-new {
+    background-color: black;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    height: 25px;
+    left: 20px;
+    line-height: 25px;
+    min-width: 50px;
+    padding: 0 5px;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    top: 20px;
+    z-index: 5
+}
+
+.card p {
+    line-height: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+.card-body a {
+    text-decoration: none;
+    
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.rating {
+    font-size: 12px;
+}
+
+.rating a {
+    color: #c7b270;
+}
+
+.single-banner1 {
+    margin-left: -450px;
+    width: 100%;
+}
+
+.single-banner2 {
+    margin-right: -600px;
+}

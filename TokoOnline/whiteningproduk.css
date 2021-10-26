@@ -1,0 +1,209 @@
+html {
+    position: relative;
+}
+
+body {
+    min-height: 130vh;
+}
+
+.ikontop {
+    padding-top: 15px;
+    margin-bottom: -15px;
+}
+
+.ikontop h6 {
+    font-size: 15px;
+}
+
+.ikontop a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar img {
+    width: 40px;
+}
+
+.navbar-brand {
+    color: rgb(207, 171, 7) !important;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.navbar {
+    z-index: 1;
+    position: relative;
+    margin-top: -30px;
+}
+
+.navbar-nav {
+    font-size: 17px;
+}
+
+
+
+.btn {
+    background-color: pink;
+    margin-left: -10px;
+}
+
+.jumbotron {
+    height: 60px;
+    padding: 1px 0;
+}
+
+.breadcrumb-item a {
+    color: black;
+}
+
+.breadcrumb-item a, .breadcrumb-item {
+    font-size: 17px;
+}
+
+.breadcrumb-item a:hover, .breadcrumb-item.active {
+    color: #f99494;
+    text-decoration: none;
+}
+
+.grid-list-top.border-default {
+    padding: 15px;
+}
+
+.border-default {
+    border: 1px solid #ededed;
+    /* border-radius: 3px;
+    padding-bottom: 30px; */
+}
+
+.justify-content-md-between {
+    -webkit-box-pack: justify!important;
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
+
+.grid-list-view span {
+    padding-left: 40px;
+}
+
+.grid-list-top .tabs-area > li span, .toolbar-sorter label, .show-items {
+    color: #3e3e3e;
+    font-size: 13px;
+}
+
+.toolbar-sorter {
+    width: 355px;
+}
+
+.toolbar-sorter label {
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-right: 15px;
+    width: 65px;
+}
+
+input, select {
+    font-size: 14px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.sticker-new {
+    background-color: black;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    height: 25px;
+    left: 20px;
+    line-height: 25px;
+    min-width: 50px;
+    padding: 0 5px;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    top: 20px;
+    z-index: 5
+}
+
+
+.tittle a {
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.harga {
+    color: #343434;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+select {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: default;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.toolbar-sorter {
+    width: 355px;
+} */
